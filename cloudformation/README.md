@@ -1,8 +1,8 @@
 # AWS CloudFormation Sample Templates
-Use sample AWS CloudFormation templates as quickstarts to jumpstart your project.
+Use sample CITCO CloudFormation templates as quickstarts to jumpstart your project.
 
 ## About the Repository
-The AWS CloudFormation team and approved contributors provide and maintain sample templates in the `CITCO ` folder. 
+CITCO architects and approved contributors provide and maintain sample templates in the `CITCO ` folder.  These are examples of components which have been deployed in production solutions and built to CITCO standards.
 
 We also collect and make available templates developed by the community. These sample templates are located in the `community` folder and its subfolders. We encourage your contributions to these templates. Note, however, that we don't test, maintain, or support community templates.
 
@@ -17,10 +17,10 @@ Before you submit a template, we suggest that you follow these guidelines to hel
 	- Use a linter. Whatever you use, make sure it also checks for syntax errors.
 	- Consider using two-space indents to reduce line wrapping.
 - Review IAM resources. If you include IAM resources, follow the standard security advice of granting least privilege (granting only the permissions required to do a task).
-- Remove secrets/credentials from your template. You might hardcode credentials or secrets in your template when you're testing. Don't forget to remove them before submitting your template. You can use this tool to help you scrub secrets: [https://github.com/awslabs/git-secrets](https://github.com/awslabs/git-secrets).
-- Add your template to the correct folder so that others can discover it. If your template demonstrates a particular service, add it to the Services folder. If it uses multiple services to address a particular use case, add it to the Solutions folder.
+- Never put secrets/credentials in your template. You can use this tool to help you check for secrets: [https://github.com/awslabs/git-secrets](https://github.com/awslabs/git-secrets).
+- Add your template to the correct folder so that others can discover it. If your template demonstrates a particular single service, add it to the Services folder. If it uses multiple services to address a particular use case, add it to the Solutions folder.
 
-When your template is ready, submit a pull request. A member of the SAE organization will review your request and might suggest changes. We review templates to check for general security issues, but we won't test or maintain them. If we don't get back to you within a week of your submission, use your pull request to send us a message.
+Always follow the naming conventions and guidelines outlined in the CITCO Confluence site (see Cloudformation Standards, Guidelines and Best Practices)
 
 ## Additional Resources
 In the *AWS CloudFormation User Guide*, you can view more information about the following topics:
